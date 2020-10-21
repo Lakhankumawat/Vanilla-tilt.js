@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header your-element"><H1>Hover Over The Box</H1></div>
+    <div class="your-element" data-tilt>
+    <a href="https://github.com/LakhanKumawat/vanilla-tilt.js" class="logo" id="logo" data-tilt="" data-tilt-glare="true" data-tilt-max-glare="0.5" data-tilt-speed="400" data-tilt-scale="1.1" data-tilt-max="10" data-tilt-perspective="500" style="will-change: transform; transform: perspective(500px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
+        </div>
+vanilla-tilt</a>
+    </div>
+
+<!-- at the end of the body -->
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".your-element"), {
+		max: 25,
+		speed: 400
+	});
+	
+	//It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".your-element"));
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.header{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 45px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 1);
+    transition: 0.3s ease;
+    
+}
+
+.logo {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    background: #0099F7;
+    background: -webkit-linear-gradient(135deg, #0099F7 , #F11712);
+    background-image: linear-gradient(135deg, #0099F7 , #F11712);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: perspective(500px);
+    transform: perspective(500px);
+    margin-bottom: 75px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
